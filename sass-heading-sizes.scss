@@ -6,59 +6,20 @@
 	Last update: 2015-01-25
 	Version: 1.0
 	License: MIT (http://opensource.org/licenses/mit-license.html))
-	
-	This is a Sass (SCSS) mixin that will allow you to increase or decrease your h tag
-	(heading) sizes in increments by either and equal percentage or by a fixed amount.
-	
-	Heading Decrement
-		Uses a heading-size (font size) and declares the decrease amount in percentage.		
-		$heading-size:	starts with h1 size and decreases to h6 evenly
-		$decrement:		the percentage amount you would like to decrease between h tags
-		$unit:			the font size unit you would like to use - rem, em, px
-		
-		Usage: @include heading-decrement( [ heading-size ], [ decrement ] , [ unit ] );
-		
-	
-	Heading Increment
-		Uses a heading-size (font size) and declares the increase amount in percentage.
-		
-		$heading-size:	starts with h6 size and increases to h1 evenly
-		$decrement:		the percentage amount you would like to increase between h tags
-		$unit:			the font size unit you would like to use - rem, em, px
-		
-		Usage: @include heading-increment( [ heading-size ], [ decrement ] , [ unit ] );
-	
-	Heading Decrement - Fixed
-		Uses a heading-size (font size) and declares the decrease amount in unit size.		
-		$heading-size:	starts with h1 size and decreases to h6 evenly
-		$decrement:		the unit amount you would like to decrease between h tags
-		$unit:			the font size unit you would like to use - rem, em, px
-		
-		Usage: @include heading-decrement-fixed( [ heading-size ], [ decrement ] , [ unit ] );
-		
-	
-	Heading Increment - Fixed
-		Uses a heading-size (font size) and declares the increase amount in unit size.
-		
-		$heading-size:	starts with h6 size and increases to h1 evenly
-		$decrement:		the unit amount you would like to increase between h tags
-		$unit:			the font size unit you would like to use - rem, em, px
-		
-		Usage: @include heading-increment-fixed( [ heading-size ], [ decrement ] , [ unit ] );
-	
-	Sizes are set to use relative and fall back to px if support for IE is needed
 
 **/
 
 
-// set the defaults - can be overridden in individual _variables.scss files
+// Set the default variables
 	
-	// support for ie8 - set this to 'false' after 7/1/2014
+	// support for ie8
 	$ie8: false !default;
-	// theme specific variables
-	$base-font: 16 !default; //in pixels
+	
+	// base font size in pixels
+	$base-font: 16 !default;
 
 // end defaults
+
 
 @mixin heading-decrement($heading-size: 2.5, $decrement: 0.25, $unit: rem){
 	@each $h in h1, h2, h3, h4, h5, h6 {
