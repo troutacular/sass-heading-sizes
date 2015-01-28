@@ -13,9 +13,9 @@ Sizes are set to use relative (rem) where possible and fall back to px if suppor
 
 Uses a heading-size (font size) and declares the decrease amount in percentage.		
 
-	$heading-size:	starts with h1 size and decreases to h6 evenly
-	$decrement:		the percentage amount you would like to decrease between h tags
-	$unit:			the font size unit you would like to use - rem, em, px
+`[heading-size]` starts with h1 size and decreases to h6 evenly
+`[decrement]` is the percentage amount you would like to decrease between h tags
+`[$unit]` is the font size unit you would like to use - rem, em, px
 
 ### Usage
 
@@ -25,9 +25,9 @@ Uses a heading-size (font size) and declares the decrease amount in percentage.
 
 Uses a heading-size (font size) and declares the increase amount in percentage.
 	
-	$heading-size:	starts with h6 size and increases to h1 evenly
-	$decrement:		the percentage amount you would like to increase between h tags
-	$unit:			the font size unit you would like to use - rem, em, px
+`[heading-size]` starts with h6 size and increases to h1 evenly
+`[$decrement]` is the percentage amount you would like to increase between h tags
+`[$unit]` is the font size unit you would like to use - rem, em, px
 	
 ### Usage
 
@@ -37,9 +37,9 @@ Uses a heading-size (font size) and declares the increase amount in percentage.
 
 Uses a heading-size (font size) and declares the decrease amount in unit size.		
 
-	$heading-size:	starts with h1 size and decreases to h6 evenly
-	$decrement:		the unit amount you would like to decrease between h tags
-	$unit:			the font size unit you would like to use - rem, em, px
+`[heading-size]` starts with h1 size and decreases to h6 evenly
+`[decrement]` is the unit amount you would like to decrease between h tags
+`[unit]` is the font size unit you would like to use - rem, em, px
 	
 ### Usage
 
@@ -49,9 +49,9 @@ Uses a heading-size (font size) and declares the decrease amount in unit size.
 
 Uses a heading-size (font size) and declares the increase amount in unit size.
 
-	$heading-size:	starts with h6 size and increases to h1 evenly
-	$decrement:		the unit amount you would like to increase between h tags
-	$unit:			the font size unit you would like to use - rem, em, px
+`[heading-size]` starts with h6 size and increases to h1 evenly
+`[decrement]` is the unit amount you would like to increase between h tags
+`[$unit]` is the font size unit you would like to use - rem, em, px
 
 ### Usage
 
