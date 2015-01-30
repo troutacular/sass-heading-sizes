@@ -1,7 +1,7 @@
 Sass Heading Sizes
 ==================
 
-Developed by [@troutacular] (https://github.com/troutacular)
+Developed by [@troutacular]
 
 This is a Sass (SCSS) mixin that will allow you to increase or decrease your <h> tag heading sizes in increments by either an equal percentage or by a fixed amount.
 
@@ -107,3 +107,6 @@ The font size unit you would like to use - rem, em, px
 ### Usage
 
 	@include heading-increment-fixed( [ heading-size ], [ decrement ] , [ unit ] );
+
+
+[@troutacular]: https://github.com/troutacular
