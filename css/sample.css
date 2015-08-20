@@ -1,0 +1,99 @@
+/** 
+	
+	Sass Heading Sizes
+	Developed by @troutacular (https://github.com/troutacular/sass-heading-sizes
+	Created: 2015-01-25
+	Last update: 2015-01-25
+	Version: 1.0
+	License: MIT (http://opensource.org/licenses/mit-license.html))
+
+**/
+body {
+  font-size: 16px;
+}
+
+section {
+  border-top: 1px solid #ccc;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: .25rem;
+}
+
+.heading-decrement h1 {
+  font-size: 2rem;
+}
+.heading-decrement h2 {
+  font-size: 1.5rem;
+}
+.heading-decrement h3 {
+  font-size: 1.125rem;
+}
+.heading-decrement h4 {
+  font-size: 0.84375rem;
+}
+.heading-decrement h5 {
+  font-size: 0.63281rem;
+}
+.heading-decrement h6 {
+  font-size: 0.47461rem;
+}
+
+.heading-increment h6 {
+  font-size: 2rem;
+}
+.heading-increment h5 {
+  font-size: 2.5rem;
+}
+.heading-increment h4 {
+  font-size: 3.125rem;
+}
+.heading-increment h3 {
+  font-size: 3.90625rem;
+}
+.heading-increment h2 {
+  font-size: 4.88281rem;
+}
+.heading-increment h1 {
+  font-size: 6.10352rem;
+}
+
+.heading-decrement-fixed h1 {
+  font-size: 2rem;
+}
+.heading-decrement-fixed h2 {
+  font-size: 1.75rem;
+}
+.heading-decrement-fixed h3 {
+  font-size: 1.5rem;
+}
+.heading-decrement-fixed h4 {
+  font-size: 1.25rem;
+}
+.heading-decrement-fixed h5 {
+  font-size: 1rem;
+}
+.heading-decrement-fixed h6 {
+  font-size: 0.75rem;
+}
+
+.heading-increment-fixed h6 {
+  font-size: 2rem;
+}
+.heading-increment-fixed h5 {
+  font-size: 2.25rem;
+}
+.heading-increment-fixed h4 {
+  font-size: 2.5rem;
+}
+.heading-increment-fixed h3 {
+  font-size: 2.75rem;
+}
+.heading-increment-fixed h2 {
+  font-size: 3rem;
+}
+.heading-increment-fixed h1 {
+  font-size: 3.25rem;
+}

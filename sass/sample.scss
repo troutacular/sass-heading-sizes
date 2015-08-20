@@ -1,0 +1,31 @@
+@import 'sass-heading-sizes';
+
+body {
+	font-size: 16px;
+}
+
+section {
+	border-top: 1px solid #ccc;
+	margin-top: 1rem;
+	padding-top: 1rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: .25rem;
+}
+
+.heading-decrement {
+	@include heading-decrement(2,.25,rem);
+}
+
+.heading-increment {
+	@include heading-increment(2,.25,rem);
+}
+
+.heading-decrement-fixed {
+	@include heading-decrement-fixed(2,.25,rem);
+}
+
+.heading-increment-fixed {
+	@include heading-increment-fixed(2,.25,rem);
+}
